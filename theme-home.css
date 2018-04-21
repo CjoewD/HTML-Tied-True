@@ -1,0 +1,95 @@
+#content{
+    width: 100%;
+    height: 50vw;
+    min-height: 500px;
+    padding: 2% 10% calc(2% + 55px) 10%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#content-left{
+    float: left;
+    width: 50%;
+}
+
+#content-right{
+    float: right;
+    width: 50%;
+}
+
+#content-instagram-image{
+    width: 100%;
+    min-width: 400px;
+    position: relative;
+    float: right;
+    z-index: 100;
+    max-height: 1000px;
+    max-width: 1000px;
+    display: block;
+}
+
+#content-instagram-content{
+    width: 100%;
+    min-width: 400px;
+    max-width: 1000px;
+    position: relative;
+    border: 6px solid #000000;
+    border-left: 0;
+    min-height: 100px;
+    float: left;
+    margin-top: -20%;
+}
+
+#content-instagram-user{
+    position: absolute;
+    top: -18px;
+    left: 18%;
+    background-color: #ffffff;
+    padding: 0 2% 0 2%;
+}
+
+#content-instagram-comment{
+    padding: 20px;
+    padding-left: 20%;
+}
+
+@media(max-width: 850px){
+    #content{
+        display: block;
+        height: auto;
+    }
+
+    #content-left{
+        width: 100%;
+
+    }
+
+    #content-right{
+        width: 100%;
+    }
+
+    #content-instagram-content{
+        margin-top: 5%;
+        border-left: 6px solid #000000;
+        min-width: inherit;
+    }
+
+    #content-instagram-user{
+        margin-left: -50px;
+    }
+
+    #content-instagram-image{
+        min-width: inherit;
+    }
+
+    #content{
+        min-height: inherit;
+    }
+}
+
+@media(max-width: 500px) {
+    #content{
+        padding: 2% 2% calc(2% + 55px) 2%;
+    }
+}

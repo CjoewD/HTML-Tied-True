@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Tied&True</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Cody Wilhelm">
+    <meta name="description" content="Mens business casual retailer located in Manhattan, Kansas.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fonts.css">
+    <link rel="stylesheet" type="text/css" href="theme.css">
+    <link rel="stylesheet" type="text/css" href="theme-blog.css">
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+
+    <script src="script.js"></script>
+    <script src="script-blog.js"></script>
+</head>
+<body onresize="handleNav('close')">
+    <div id="site-wrap">
+        <div id="header">
+            <a href="index.html"><img id="header-logo" src="assets/logo.svg" /></a>
+            <ul id="header-nav">
+                <a href="index.html"><li  style="width: 74.05px;" class="header-nav-object"><p class="header-nav-content">Home</p><img class="header-nav-image" src="assets/nav-home.svg"/></li></a>
+                <a href="about.html"><li  style="width: 101.23px;" class="header-nav-object"><p class="header-nav-content">About Us</p><img class="header-nav-image" src="assets/nav-about.svg" /></li></a>
+                <a href="blog.html"><li  style="width: 60.38px;" class="header-nav-object"  id="header-nav-current"><p class="header-nav-content">Blog</p><img class="header-nav-image" src="assets/nav-blog.svg" /></li></a>
+                <a href="contact.html"><li  style="width: 93.48px;" class="header-nav-object"><p class="header-nav-content">Contact</p><img class="header-nav-image" src="assets/nav-contact.svg" /></li></a>
+            </ul>
+            <img id="header-nav-mobile" src="assets/menu.svg" onClick="handleNav()" />
+            <div id="header-nav-popup">
+                <a href="index.html"><div class="header-nav-popup-link">Home</div></a>
+                <a href="about.html"><div class="header-nav-popup-link">About Us</div></a>
+                <a href="blog.html"><div class="header-nav-popup-link">Blog</div></a>
+                <a href="contact.html"><div class="header-nav-popup-link">Contact</div></a>
+            </div>
+        </div>
+        <div id="promotion">
+            <span id="promotion-helper"></span>
+            <img src="assets/promotion.svg" id="promotion-ad" />
+            <img src="assets/promotion-small.svg" id="promotion-ad-small" />
+        </div>
+        <div id="content">
+            <div id="content-bar">
+                <ul>
+                    <li>Matching Colors - 4/19/18</li>
+                    <li>To Hat or Not - 3/25/18</li>
+                    <li>Socks with Shoes - 3/04/18</li>
+                    <li>Spring Wear - 2/13/18</li>
+                </ul>
+            </div>
+            <div id="content-info">
+                <h2>Matching Colors</h2>
+                <h4>4/19/18</h4>
+                <hr class="content-line-header" />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet a ligula at imperdiet. Vivamus nec tempor eros. Nulla id molestie nibh, ut tempus nibh. Fusce consectetur tempor nisl sed mollis. Vivamus ornare bibendum diam, id hendrerit ipsum suscipit a. Praesent ultricies elementum ullamcorper. Donec condimentum massa iaculis purus tempus, in scelerisque magna vestibulum. Aliquam erat volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus.<br><br>Duis ultrices, ligula vestibulum varius dignissim, dui leo lacinia justo, at commodo turpis nunc ut mi. Praesent finibus nunc enim. Nulla facilisi. Quisque id magna vel dolor efficitur pulvinar. Aliquam mattis ac elit eget aliquam. Aliquam ultricies condimentum nibh, a varius sem. Curabitur eget augue nunc. Etiam id sagittis lorem. Praesent tortor neque, blandit nec volutpat tristique, sagittis quis nibh. Phasellus fringilla viverra justo, eu vestibulum lacus aliquam a. Suspendisse sed risus risus. Ut efficitur mauris vitae ligula venenatis auctor. Proin elit sapien, tempor vitae sem ac, varius consequat diam. Maecenas ut tristique lacus. Curabitur rutrum massa sed sagittis luctus. Sed ac justo sit amet lorem consequat viverra quis et justo.<br><br> Donec quis mi nunc. Fusce tincidunt ex orci, eu scelerisque nibh iaculis nec. Vivamus vestibulum porttitor justo, viverra dapibus mi tempor ut. Integer fermentum scelerisque quam, nec rhoncus tortor mollis nec. Etiam nec metus orci. Cras eget ligula at diam volutpat ultricies in consequat enim. Proin nec aliquam diam. Pellentesque vel velit feugiat, mollis ante iaculis, elementum augue. Fusce quis lobortis ipsum.</p>
+                <hr class="content-line-between" />
+                <h2>To Hat or Not</h2>
+                <h4>3/25/18</h4>
+                <hr class="content-line-header" />
+                <p>Aenean dignissim ultricies scelerisque. Donec elementum sapien dui, id consectetur est rhoncus eget. Phasellus ut posuere odio. Nam dolor libero, sollicitudin eget urna id, suscipit maximus ligula. Sed at pretium justo, id ullamcorper erat. Aenean id arcu condimentum, fringilla nunc ultricies, tristique sapien. Phasellus viverra, turpis in placerat fringilla, enim ipsum tincidunt dolor, tristique iaculis orci tellus ut leo. Ut interdum ligula eget dignissim fringilla. Sed purus felis, tempor ac interdum sed, consectetur tempus leo. Proin venenatis felis congue convallis tincidunt.<br><br>In convallis quis odio sit amet egestas. Fusce feugiat massa eu nunc dapibus hendrerit. Vivamus lacinia est nulla, eu lacinia augue tincidunt nec. Integer ultrices, tortor in sagittis convallis, eros sem scelerisque nisi, at dignissim ipsum enim et mauris. Vestibulum purus tortor, malesuada et leo ut, efficitur dapibus tortor. Suspendisse ac tincidunt augue. Fusce non felis tincidunt, condimentum neque id, vehicula velit. Integer in tellus sed lectus euismod tincidunt. Quisque eu arcu ac enim fringilla suscipit id pharetra tellus. Ut nec metus eu lacus lobortis vulputate. Nullam ac fringilla elit. Vestibulum ac arcu ut neque sagittis interdum nec laoreet lacus. Phasellus elementum sem rhoncus velit placerat tincidunt. Vestibulum maximus nulla nec vehicula pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<br><br>Donec ultricies dui sit amet tortor sodales, in congue lectus vehicula. Vivamus et ligula at sem semper auctor faucibus elementum dui. Nunc vel augue consequat, ultricies sapien lacinia, convallis erat. Mauris dictum augue augue, in sagittis nunc hendrerit non. Suspendisse euismod fringilla lacus ut lobortis. Sed vel lacus viverra tortor maximus eleifend. Fusce ac ex lacus. Nunc vulputate enim non porta dignissim. Nullam gravida, nibh ut porta facilisis, magna ante fermentum ligula, non placerat lorem justo quis tortor. Donec vel lacus nec metus rutrum varius. Nunc tempus neque id congue ultricies. In id turpis vel ante pretium auctor blandit eget nunc. Ut ac magna ex.<br><br>In ac tristique turpis. Fusce lobortis porta ullamcorper. Proin eu porttitor massa. Donec mollis tempus lorem id cursus. Nunc mattis tempus nisl in mollis. Vestibulum vulputate ex urna, eu tincidunt lacus tincidunt nec. Proin at consectetur sem. Morbi fringilla ligula sapien, id aliquet tortor vestibulum vel. Proin quis ullamcorper nibh. Nam placerat, dolor a bibendum viverra, dui metus maximus magna, nec lobortis enim nulla quis nisi. Pellentesque lobortis tempor ipsum id bibendum. Cras id leo diam. Nam eleifend vel tortor et congue.</p>
+                <hr class="content-line-between" />
+                <h2>Socks with Shoes</h2>
+                <h4>3/04/18</h4>
+                <hr class="content-line-header" />
+                <p>Maecenas bibendum risus nec neque vulputate fermentum sit amet a diam. Phasellus vel sodales risus. Curabitur imperdiet ac dolor ac placerat. Nullam a ante sed sem sollicitudin vehicula eu sed nibh. Etiam dignissim interdum placerat. Donec luctus mi ut sem interdum, et blandit mauris sodales. Mauris ac ex ut mauris interdum mattis. Phasellus massa libero, vehicula vitae eros non, hendrerit elementum leo. Morbi at massa diam. Fusce condimentum rutrum nulla, a iaculis ex eleifend et.<br><br>Nullam malesuada sapien eget interdum sodales. In auctor dignissim lorem, vel maximus erat volutpat in. Vestibulum lacinia turpis dui, eu vehicula justo finibus a. Nunc ac massa quis dui blandit euismod. Maecenas pretium neque id pulvinar blandit. Mauris est odio, tempus nec nibh vel, venenatis dignissim elit. Fusce non libero erat. Phasellus at turpis semper, tempor tellus aliquam, malesuada nulla. Curabitur quis tincidunt erat. Morbi facilisis elit eros, sit amet egestas libero placerat non. Mauris feugiat, mauris nec ultrices tristique, ligula est varius tortor, eget dignissim ex arcu blandit odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. In sapien urna, sagittis id lectus sed, pellentesque ornare neque. Donec pellentesque orci sit amet placerat sodales. Integer facilisis mattis placerat.</p>
+                <hr class="content-line-between" />
+                <h2>Spring Wear</h2>
+                <h4>2/13/18</h4>
+                <hr class="content-line-header" />
+                <p>Mauris ullamcorper volutpat tellus. Phasellus ut blandit ipsum. Curabitur euismod imperdiet odio, at interdum dui cursus eu. Proin imperdiet, velit tincidunt ullamcorper malesuada, turpis arcu dapibus mauris, at aliquam ex nulla eu metus. In ut leo lacus. Nam sodales nulla mauris, at viverra sem venenatis in. Cras at eros gravida, molestie tellus eget, porttitor erat. Sed pretium accumsan nunc nec scelerisque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer vel egestas elit. Nunc non augue massa.<br><br>Vivamus eu lacus rhoncus turpis efficitur lacinia. Sed sed ligula orci. Fusce volutpat est vitae turpis fermentum, eu viverra sem tristique. Nulla ullamcorper convallis viverra. Quisque eget condimentum dui. Curabitur mattis euismod mollis. Quisque et sem lorem.<br><br>Vivamus aliquet tempor feugiat. Ut congue feugiat ultrices. Praesent ut velit iaculis, porttitor sem non, malesuada ipsum. Donec at nisl mollis, interdum lectus nec, euismod purus. Morbi eget mauris ut mi molestie rhoncus sed in urna. Suspendisse potenti. In in euismod magna, quis cursus enim. Nunc in ante nec lorem egestas convallis. Nunc id nulla et dolor lobortis consequat eu et justo. In dui arcu, finibus nec mattis eu, varius a mauris. Curabitur accumsan tortor ut libero ornare, eu luctus ante consectetur. Nulla vitae elit leo. Integer convallis a velit quis vehicula.<br><br>In gravida tellus urna. Integer tincidunt fringilla purus eget rutrum. In tristique in risus iaculis luctus. Curabitur in augue in ligula vulputate blandit. Vestibulum vel suscipit ante. Morbi lobortis semper neque aliquet ultrices. Curabitur elementum sapien justo, eget ultricies magna imperdiet sed. Etiam pretium quis erat mattis luctus. Duis pulvinar ipsum a erat interdum pellentesque. Sed imperdiet lacus sit amet nibh viverra, at mollis lacus sollicitudin. Praesent vel cursus justo. Cras enim turpis, ullamcorper sit amet fermentum eu, facilisis vel libero.<br><br>Aenean quis mauris sapien. Sed nunc nibh, ornare id libero ac, venenatis condimentum velit. Maecenas nunc justo, porta ac bibendum dapibus, congue vitae ex. Vestibulum arcu tortor, fermentum ut nunc non, egestas vehicula metus. Nulla cursus ligula in orci dictum pretium. Morbi ante neque, feugiat et mauris id, gravida luctus justo. Nunc porta urna et est fringilla, ut iaculis libero porttitor. Praesent hendrerit sit amet elit eu congue. Sed ultrices aliquam auctor. Nulla hendrerit, tortor id mollis suscipit, nisl lorem venenatis lorem, venenatis posuere nunc tellus quis elit. Duis in justo vitae enim tempus congue. Nam scelerisque in libero eu convallis. In ultricies mauris sit amet magna lacinia sodales.</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div id="footer">
+            <a href="http://www.facebook.com"><img class="footer-social" src="assets/facebook.svg" /></a>
+            <a href="http://www.instagram.com"><img class="footer-social" src="assets/instagram.svg" /></a>
+            <a href="http://www.twitter.com"><img class="footer-social" src="assets/twitter.svg" /></a>
+
+            <p id="footer-address">419 East Pontz Avenue,<br>Manhattan, KS 66502</p>
+            <div class="footer-line"></div>
+            <p id="footer-phone">795.546.3592</p>
+        </div>
+    </div>
+</body>
+</html>

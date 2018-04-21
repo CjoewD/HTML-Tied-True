@@ -1,0 +1,57 @@
+#content{
+    width: 100%;
+    padding: 20px 10% 95px 5%;
+    position: relative;
+}
+
+#content-bar{
+    width: 30%;
+    float: left;
+    position: fixed;
+    top: 230px;
+}
+
+#content-info{
+    width: 70%;
+    float: right;
+}
+
+#content-bar li{
+    list-style-type: none;
+    float: left;
+    clear:both;
+    padding: 4px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+}
+
+.content-line-between{
+    margin: 40px 0;
+}
+
+.content-line-header{
+    margin: 5px 0;
+    width: 200px;
+}
+
+hr{
+    border: .5px solid #81907f;
+}
+
+/*Change nav bar*/
+@media(max-width: 1000px){
+  #content-info{
+      width: 100%;
+      float: right;
+  }
+
+  #content-bar li{
+      display: none;
+  }
+
+  #content{
+      width: 100%;
+      padding: 2% 5% calc(2% + 55px) 5%;
+      position: relative;
+  }
+}

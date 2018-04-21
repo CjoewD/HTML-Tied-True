@@ -1,0 +1,43 @@
+#content{
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 40px 10% 95px 10%;
+    position: relative;
+}
+
+#content-store{
+    width: 100%;
+    float: left;
+    padding-bottom: 20px;
+}
+
+#content-info{
+    width: 60%;
+    float: right;
+    border-left: 1px solid #81907f;
+    padding: 20px;
+}
+
+#content-location{
+    width: 40%;
+    float: right;
+    text-align: right;
+    padding: 20px;
+}
+
+@media(max-width: 675px){
+    #content{
+        padding: 30px 5% 95px 5%;
+    }
+}
+
+@media(max-width: 600px){
+    #content-info{
+        width: 100%;
+    }
+
+    #content-location{
+        width: 100%;
+    }
+}
